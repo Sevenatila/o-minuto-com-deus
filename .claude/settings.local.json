@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(for file in notes/route.ts metrics/route.ts highlights/route.ts favorites/route.ts)",
+      "Bash(do [ -f \"$file\" ])",
+      "Bash(echo \"Found: $file\")",
+      "Bash(done)",
+      "Bash(npm i:*)",
+      "Bash(vercel login:*)",
+      "Bash(vercel env pull:*)",
+      "Bash(vercel link:*)",
+      "Bash(npx prisma migrate:*)",
+      "Bash(npx dotenv -e .env.local -- npx prisma migrate deploy:*)",
+      "Bash(npx prisma:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git filter-repo:*)",
+      "Read(//c/Users/atila/Desktop/**)",
+      "Bash(rm:*)",
+      "Bash(git push:*)",
+      "Bash(npx dotenv -e .env -- npx prisma migrate:*)",
+      "Bash(npm install:*)",
+      "Bash(cat:*)",
+      "Bash(git reset:*)",
+      "Bash(git checkout:*)",
+      "Bash(git rev-parse:*)",
+      "Read(//c/Users/atila/**)",
+      "Bash(git rm:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
